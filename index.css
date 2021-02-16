@@ -60,13 +60,45 @@ table {
 /*Roboto Mono font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+
 *{
-  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 2px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.links:link{
+    color: white;
+}
+
+.plan{
+    background-color:#FF764E;
+}
+
+.learn{
+    background-color: #5ED3EB;
+}
+
+.involved{
+    background-color: #FFCD69;
 }
 
 h1{
-    font-family: 'Chelsea Market', cursive;    
+    font-family: 'Chelsea Market', cursive; 
+    /* border: 2px solid black;    */
 } 
+
+.main-body{
+    color: white;
+    background-color: #DDB9A3;
+    margin: 0 auto;
+}
 
 
 
