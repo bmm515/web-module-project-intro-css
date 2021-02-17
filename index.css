@@ -78,7 +78,14 @@ table {
 
 html{
     font-family: 'Roboto Mono', monospace;
-    /* font-size:  62.5%; */
+    font-size:  62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    letter-spacing: 1.5;
+    color:black;
+    line-height: 1.5;
 }
 
 .everything-but-footer{
@@ -91,19 +98,23 @@ html{
 
 .links{
     padding: 5%;
+    height: 60px;
 }
 
 .links div{
     width: 32%;
     display: inline-block;
     text-align: center;
+    height:100%;
+    vertical-align: top;
 
 }
 
 .links a{
     display: inline-block;
-    /* width: 40%; */
+    width: 35%;
     border-radius: 15%;
+    height:70%;
 
 }
 
@@ -111,39 +122,11 @@ a:link {
     text-decoration: none;
   }
 
-.headerStuff img{
-    width: 20%;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.allheadertext{
-    display: inline-block;
-}
-
-.headerStuff{
-    width: 100%;
-}
-
-h1{
-    width: 60%;
-}
-.headertext1{
-    width: 60%;
-}
-
-.headertext2{
-    width: 60%;
-}
-/* nav{
-    display: inline-block;
-} */
-
 .plan{
     background-color:#FF764E;
     padding: 3%;
     color: white;
-    width: 40%;
+    /* width: 40%; */
     /* text-align: center; */
 }
 
@@ -151,15 +134,60 @@ h1{
     background-color: #5ED3EB;
     padding: 3%;
     color: white;
-    width: 40%;
+    /* width: 40%; */
 }
 
 .involved{
     background-color: #FFCD69;
     padding: 3%;
     color: white;
-    width: 30%;
+    /* width: 30%; */
 }
+
+.headerStuff{
+    width: 100%;
+    height: 215px;
+    text-align: center;
+}
+
+.headerStuff img{
+    width: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    /* height: 100%; */
+}
+
+.allheadertext{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 4.5rem;
+    width: 100%;
+    letter-spacing: 1.0;
+}
+
+
+
+.headertext1{
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headertext2{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* nav{
+    display: inline-block;
+} */
+
 
 /* .headerStuff{
     display: inline-block;
@@ -173,7 +201,7 @@ h1{
 .main-body{
     color: white;
     background-color: #DDB9A3;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     padding: 6%;
     
@@ -188,7 +216,32 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 1%;
+
+}
+
+.fire p{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.lodging img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 3%;
+
+}
+
+.lodging p{
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
@@ -198,6 +251,9 @@ footer{
 
 footer img{
     width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 85% 15%;
 
 }
 
