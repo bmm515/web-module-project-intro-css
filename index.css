@@ -71,7 +71,7 @@ table {
   }   */
 
 *{
-      border: 2px solid black;
+      /* border: 2px solid black; */
       /* box-sizing: border-box;
       max-width: 100%; */
   }
