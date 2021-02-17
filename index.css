@@ -1,0 +1,287 @@
+/*Importing fonts*/
+/*Chealsea Market font*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+/*Roboto Mono font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
+
+  
+/*Beginning of CSS reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of CSS reset*/
+
+/*Start styling here-------->*/
+
+/* *{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+  }   */
+
+*{
+      /* border: 2px solid black; */
+      /* box-sizing: border-box;
+      max-width: 100%; */
+  }
+
+html{
+    font-family: 'Roboto Mono', monospace;
+    font-size:  62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    letter-spacing: 1.5;
+    color:black;
+    line-height: 1.5;
+}
+
+.everything-but-footer{
+    margin: 100px;
+}
+
+/* header{
+    display: inline-block;
+} */
+
+.links{
+    padding: 5%;
+    height: 60px;
+}
+
+.links div{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    height:100%;
+    vertical-align: top;
+
+}
+
+.links a{
+    display: inline-block;
+    width: 32%;
+    border-radius: 15%;
+    height:70%;
+
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.plan{
+    background-color:#FF764E;
+    padding: 3%;
+    color: white;
+    /* width: 40%; */
+    /* text-align: center; */
+}
+
+.learn{
+    background-color: #5ED3EB;
+    padding: 3%;
+    color: white;
+    /* width: 40%; */
+}
+
+.involved{
+    background-color: #FFCD69;
+    padding: 3%;
+    color: white;
+    /* width: 30%; */
+}
+
+.headerStuff{
+    width: 100%;
+    height: 215px;
+    text-align: center;
+}
+
+.headerStuff img{
+    width: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    /* height: 100%; */
+}
+
+.allheadertext{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 4.5rem;
+    width: 100%;
+    letter-spacing: 1.0;
+}
+
+
+
+.headertext1{
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.7rem;
+}
+
+.headertext2{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.7rem;
+}
+
+/* nav{
+    display: inline-block;
+} */
+
+
+/* .headerStuff{
+    display: inline-block;
+} */
+
+h1{
+    font-family: 'Chelsea Market', cursive; 
+    /* border: 2px solid black;    */
+} 
+
+.main-body{
+    color: white;
+    background-color: #DDB9A3;
+    margin: 45px auto;
+    text-align: center;
+    padding: 1.0%;
+    font-size: 2rem;
+    
+}
+
+.text1{
+    margin-bottom: 5%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fire img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+
+}
+
+.fire p{
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.lodging img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+
+}
+
+.lodging p{
+    width: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+footer img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 85% 15%;
+
+}
+
+footer .links a{
+    width: 27%;
+}
+
+
+span{
+    font-weight: bold;
+}
+/* b{
+    /* font-weight: normal; */
+    font-style: bold;
+} */
+
+
+
+
