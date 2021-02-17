@@ -1,3 +1,12 @@
+/*Importing fonts*/
+/*Chealsea Market font*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+/*Roboto Mono font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+  
 /*Beginning of CSS reset*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -20,7 +29,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,41 +62,79 @@ table {
 
 /*Start styling here-------->*/
 
-/*Importing fonts*/
-/*Chealsea Market font*/
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-
-/*Roboto Mono font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-
+/* *{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+  }   */
 
 *{
-  box-sizing: border-box;
-  max-width: 100%;
-  border: 2px solid black;
-  padding: 0;
-  margin: 0;
-}
+      border: 2px solid black;
+      /* box-sizing: border-box;
+      max-width: 100%; */
+  }
 
 html{
     font-family: 'Roboto Mono', monospace;
+    /* font-size:  62.5%; */
 }
 
-.links:link{
-    color: white;
+.everything-but-footer{
+    margin: 100px;
 }
+
+header{
+    display: inline-block;
+}
+
+.headerStuff img{
+    width: 20%;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.headerStuff{
+    width: 100%;
+}
+
+h1{
+    width: 60%;
+}
+.headertext1{
+    width: 60%;
+}
+
+.headertext2{
+    width: 60%;
+}
+/* nav{
+    display: inline-block;
+} */
 
 .plan{
     background-color:#FF764E;
+    padding: 3%;
+    color: white;
+    /* text-align: center; */
 }
 
 .learn{
     background-color: #5ED3EB;
+    padding: 3%;
+    color: white;
 }
 
 .involved{
     background-color: #FFCD69;
+    padding: 3%;
+    color: white;
 }
+
+/* .headerStuff{
+    display: inline-block;
+} */
 
 h1{
     font-family: 'Chelsea Market', cursive; 
@@ -98,8 +145,23 @@ h1{
     color: white;
     background-color: #DDB9A3;
     margin: 0 auto;
+    text-align: center;
+    padding: 6%;
+    
 }
 
+.text1{
+    margin-bottom: 5%;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+footer img{
+    width: 100%;
+
+}
 
 
 
