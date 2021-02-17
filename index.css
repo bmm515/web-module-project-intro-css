@@ -85,14 +85,40 @@ html{
     margin: 100px;
 }
 
-header{
+/* header{
     display: inline-block;
+} */
+
+.links{
+    padding: 5%;
 }
+
+.links div{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.links a{
+    display: inline-block;
+    /* width: 40%; */
+    border-radius: 15%;
+
+}
+
+a:link {
+    text-decoration: none;
+  }
 
 .headerStuff img{
     width: 20%;
     border-radius: 50%;
-    /* display: inline-block; */
+    display: inline-block;
+}
+
+.allheadertext{
+    display: inline-block;
 }
 
 .headerStuff{
@@ -117,6 +143,7 @@ h1{
     background-color:#FF764E;
     padding: 3%;
     color: white;
+    width: 40%;
     /* text-align: center; */
 }
 
@@ -124,12 +151,14 @@ h1{
     background-color: #5ED3EB;
     padding: 3%;
     color: white;
+    width: 40%;
 }
 
 .involved{
     background-color: #FFCD69;
     padding: 3%;
     color: white;
+    width: 30%;
 }
 
 /* .headerStuff{
@@ -152,6 +181,15 @@ h1{
 
 .text1{
     margin-bottom: 5%;
+}
+
+.fire img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+
 }
 
 footer{
